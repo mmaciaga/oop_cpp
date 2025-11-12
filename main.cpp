@@ -43,29 +43,29 @@ int main() {
     Magasine m = Magasine();
     m.numPages = 137;
     m.getTitle = "Vogue";
-    m.ID = "CD22";
+    m.ISBN_num = "CD22";
     m.location = "shelf 54, row 3";
-    cout << "ID: " << m.ID << "\ntitle: " << m.getTitle << "\nlocation: " << m.location << "\nnumber of pages: " << m.numPages << endl;
+    cout << "ID: " << m.ISBN_num << "\ntitle: " << m.getTitle << "\nlocation: " << m.location << "\nnumber of pages: " << m.numPages << endl;
 
 
     cout << "\n----CLASS BOOKS----\n" << endl;
     Books b = Books();
     b.getTitle = "Into thin air";
     b.author = "Jon Krakauer";
-    b.ID = "AB11";
+    b.ISBN_num = "AB11";
     b.location = "shelf 11, row 16";
     b.numPages = 413;
-    cout << "ID: " << b.ID << "\nlocation: " << b.location << "\ntitle: " << b.getTitle << "\nauthor: " << b.author << "\nnumber of pages: " << b.numPages << endl;
+    cout << "ID: " << b.ISBN_num << "\nlocation: " << b.location << "\ntitle: " << b.getTitle << "\nauthor: " << b.author << "\nnumber of pages: " << b.numPages << endl;
 
     cout << "\n----CLASS CD----\n" << endl;
 
     CD c = CD();
     c.lengthCD = 37;
-    c.ID = "GH53";
+    c.ISBN_num = "GH53";
     c.location = "shelf 23, row 16";
     c.getTitle = "The Queen is Dead";
     c.author = "The Smiths";
-    cout << "ID: " << c.ID << "\nlocation: " << c.location << "\ntitle: " << c.getTitle << "\nauthor: " << c.author << "\nlength of the record in minutes: " << c.lengthCD << endl;
+    cout << "ID: " << c.ISBN_num << "\nlocation: " << c.location << "\ntitle: " << c.getTitle << "\nauthor: " << c.author << "\nlength of the record in minutes: " << c.lengthCD << endl;
 
     return 0;
 }
